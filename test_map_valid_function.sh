@@ -26,6 +26,10 @@ ALL_LEAKS=false
 RESULT=0
 TEST_NB=56
 
+if [ -d "$LEAKS_FOLDER" ]; then
+    rm -r "$LEAKS_FOLDER"
+fi
+
 if [ $# -gt 1 ]
 then
 	echo -e "${ALERT_BG}Not valid arguments${CLEAR_COLOR}"
