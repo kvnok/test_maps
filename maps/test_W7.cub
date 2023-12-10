@@ -1,7 +1,7 @@
-NO ./images/NO.xpm
+NO ./images/NO.png
 WE
-SO ./images/SO.xpm
-EA ./images/EA.xpm
+SO ./images/SO.png
+EA ./images/EA.png
 F 00,153,15
 C 255,255,255
 
